@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: TreatmentSelection_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/TreatmentSelection_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/TreatmentSelection/TreatmentSelection_{{ version }}.tar.gz
@@ -42,7 +41,7 @@ test:
 
 about:
   home: http://rpubs.com/mdbrown/TreatmentSelection
-  license: GPL-3
+  license: GPL-3.0-only
   summary: 'A suite of descriptive and inferential methods designed to evaluate one or more biomarkers
     for their ability to guide patient treatment recommendations.  Package includes
     functions to assess the calibration of risk models; and plot, evaluate, and compare
@@ -54,8 +53,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
