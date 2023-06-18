@@ -1,11 +1,11 @@
-About r-treatmentselection
-==========================
+About r-treatmentselection-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-treatmentselection-feedstock/blob/main/LICENSE.txt)
 
 Home: http://rpubs.com/mdbrown/TreatmentSelection
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-treatmentselection-feedstock/blob/main/LICENSE.txt)
 
 Summary: A suite of descriptive and inferential methods designed to evaluate one or more biomarkers for their ability to guide patient treatment recommendations.  Package includes functions to assess the calibration of risk models; and plot, evaluate, and compare markers. Please see the reference Janes H, Brown MD, Huang Y, et al. (2014) <doi:10.1515/ijb-2012-0052> for further details. 
 
